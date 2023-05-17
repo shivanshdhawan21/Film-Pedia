@@ -1,0 +1,27 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    button{
+        color: white;
+        cursor: pointer;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        background-color: #212122;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction:column ;
+        align-items:center ;
+        width: 25%;
+        border-bottom: none;
+        transition-duration: 0.3s;
+        &:hover{
+            transition-duration: 0.3s;
+            transform: scale(1.2);
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    }
+}

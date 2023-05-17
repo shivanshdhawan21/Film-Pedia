@@ -1,0 +1,12 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.App{
+    padding: 150px 50px;
+    min-height: 100vh;
+    background-color: #39445a;
+    color: white;
+}
